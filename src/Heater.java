@@ -1,9 +1,9 @@
 public class Heater {
-    int temperature;
+    int waterTemperature;
 
     void heatUp(){
-        for(; temperature<100;temperature++){
-            temperature+=1;
+        for(; waterTemperature<100;waterTemperature++){
+            waterTemperature+=1;
         }
     }
 
